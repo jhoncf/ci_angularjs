@@ -60,3 +60,21 @@ $route['translate_uri_dashes'] = TRUE;
 */
 $route['api/example/users/(:num)'] = 'api/example/users/id/$1'; // Example 4
 $route['api/example/users/(:num)(\.)([a-zA-Z0-9_-]+)(.*)'] = 'api/example/users/id/$1/format/$3$4'; // Example 8
+
+
+/*
+| -------------------------------------------------------------------------
+| Empresas REST API Routes
+| -------------------------------------------------------------------------
+*/
+$route['api/empresas'] = 'api/empresas/empresas'; // Example 4
+$route['api/empresas/id/(:num)'] = 'api/empresas/empresas/id/$1'; // Example 4
+
+
+/*
+| -------------------------------------------------------------------------
+| Colaboradores REST API Routes
+| -------------------------------------------------------------------------
+*/
+$route['api/colaboradores'] = 'api/colaboradores/colaboradores'; // Example 4
+$route['api/colaboradores/id/(:num)'] = 'api/colaboradores/colaboradores/id/$1'; // Example 4

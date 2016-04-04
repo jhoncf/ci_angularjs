@@ -1,0 +1,20 @@
+
+<div class="page-header">
+    <h2><a href="#/empresas/create">Empresas <img src="assets/img/ico-add.png"></a></h2>
+</div>
+
+<form class="col-md-offset-9 col-md-3">
+    <div class="form-group">
+        <input type="text" class="form-control" id="search" ng-model="search" placeholder="Busca">
+    </div>
+</form>
+<table class="table">
+    <tr>
+        <th>Nome</th>
+        <th></th>
+    </tr>
+    <tr ng-repeat="item in tableData | filter: search">
+        <td>{{item.name}}</td>
+        <td><a href="#/empresas/delete/{{item.id}}"><img src="assets/img/ico-del.png"></a></td>
+    </tr>
+</table>

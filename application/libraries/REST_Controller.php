@@ -13,6 +13,9 @@ defined('BASEPATH') OR exit('No direct script access allowed');
  * @license         MIT
  * @link            https://github.com/chriskacerguis/codeigniter-restserver
  * @version         3.0.0
+ *
+ * @property Empresas_model $empresas_model
+ * @property Empresas_mapper $empresas_mapper
  */
 abstract class REST_Controller extends CI_Controller {
 

@@ -1,0 +1,12 @@
+.navbar-default {
+    background-color: #202e3c;
+    border-color: #202e3c;
+}
+
+.navbar-p2b{
+    background-color: #2b3e51;
+    border-color: #2b3e51;
+    border-radius: 0px;
+    margin-top: -20px;
+    min-height: 70px;
+}
